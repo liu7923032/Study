@@ -75,8 +75,18 @@
 
 语法 `` 代码放在内容里面
 
-`
+` Console.WriteLine("hello world")`
+
+还可以直接通过tab缩进,实现代码的换行
+
     if a>0 {
         fmt.Print("财产我是哪种语言的语法")
     }
-`
+
+还可以通过`````` 
+
+```
+    if a > 1 {
+        fmt.Print("golang ")
+    }
+```
