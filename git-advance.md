@@ -16,9 +16,11 @@ git 强大的地方就在于多人协同功能，在之前的学习的git基本�
 
 `git branch dev` 命令创建了名字叫**dev** 的分支，注意此时我们在操作时，还是在master分支上对项目调整
 
+## git checkout <分支名>
+
 `git checkout dev` 命令切换到dev，此时我们就可以在**dev**分支上修改我们的代码了。（修改文件后，需要commit，这样我们修改的代码才真正提交到分支**dev**中）
 可以通过`git log --oneline`命令才查看head是否指向dev分支。
 
 ## git checkout -b <分支名>
 
-上面的命令是先创建分支，我们可以使用命令`git checkout -b dev_bug` 直接进行创建并切换到**dev_bug**分支
+上面的命令是先创建分支，我们可以使用命令`git checkout -b dev_bug` 直接进行创建并切换到**dev_bug**分支，最后我们可以使用`git commit -m ''`命令来对变更的信息就行提交。
