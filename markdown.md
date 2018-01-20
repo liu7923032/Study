@@ -86,7 +86,7 @@
 还可以通过`````` 
 
 ```
-    if a > 1 {
-        fmt.Print("golang ")
-    }
+if a > 1 {
+    fmt.Print("golang ")
+}
 ```
